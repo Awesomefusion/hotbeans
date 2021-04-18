@@ -1,0 +1,11 @@
+.main{
+    height:56px;
+    width: 100%;
+    background-color:#4b4b4b;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+}
+.navBar ul.dropdown-menu {
+    overflow: visible;
+  }
