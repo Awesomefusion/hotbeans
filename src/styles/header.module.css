@@ -5,3 +5,9 @@
     margin-right: auto;
     background-color: rgb(13, 15, 19);
 }
+
+.middleTitle{
+    text-align: center;
+    padding-top:25px;
+    padding-bottom:25px;
+}

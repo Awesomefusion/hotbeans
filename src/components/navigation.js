@@ -10,12 +10,15 @@ class Navigation extends React.Component {
                     <Navbar.Brand>Hot Beans <img alt="logo" className={styles.logo} src={logo}/></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
-                                    <Nav className="mr-auto">
+                                    <Nav className="container-fluid">
                                     <Nav.Link href="/">Home</Nav.Link>
                                     <Nav.Link href="/about">About</Nav.Link>
                                     <Nav.Link href="/team">Team</Nav.Link>
                                     <Nav.Link href="/jobs">Jobs</Nav.Link>
-                                    <Nav.Link href="/learn">Learn</Nav.Link>
+                                    <Nav.Link href="/contact">Contact</Nav.Link>
+                                        <Nav.Item className="ml-auto">
+                                            <Nav.Link href="/learn">Learn</Nav.Link>
+                                        </Nav.Item>
                                     </Nav>
                             </Navbar.Collapse>
                 </Navbar>

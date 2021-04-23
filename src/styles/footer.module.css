@@ -1,11 +1,10 @@
 .main{
-    height:40px;
+    height:45px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #343a40;
     bottom: 0;
-    position: absolute;
 }
 
 .footertext{
@@ -13,4 +12,10 @@
     text-align: right;
     padding: 12px;
     color:white;
+}
+
+.middleTitle{
+    text-align: center;
+    padding-top:25px;
+    padding-bottom:25px;
 }

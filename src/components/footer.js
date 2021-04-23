@@ -5,7 +5,7 @@ class Footer extends React.Component {
         return (
             <div className={styles.main}>
                 <p className={styles.footertext}>
-                    Copyright © 2021 Hot Beans
+                    Copyright © 2021 Hot Beans Ltd. All rights reserved.
                 </p>
             </div>
         )

@@ -6,6 +6,7 @@ import About from "./about"
 import Team from "./team"
 import Jobs from "./jobs"
 import Learn from "./learn"
+import Contact from "./contact"
 class Container extends React.Component {
     render(){
         return (
@@ -15,6 +16,7 @@ class Container extends React.Component {
                     <Route path="/team"><Team/></Route>
                     <Route path="/jobs"><Jobs/></Route>
                     <Route path="/learn"><Learn/></Route>
+                    <Route path="/contact"><Contact/></Route>
                 </div>
         )
     }

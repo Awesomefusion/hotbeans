@@ -4,9 +4,8 @@ class Jobs extends React.Component {
     render(){
         return (
                 <div className={styles.main}>
-                    <p>
-                        Jobs
-                    </p>
+                    <h1 className={styles.middleTitle}>Join Us</h1>
+
                 </div>
         )
     }
