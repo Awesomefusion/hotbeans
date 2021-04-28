@@ -5,6 +5,9 @@
     margin-right: auto;
     background-color: #343a40;
     bottom: 0;
+    margin-top: -45px;
+    clear: both;
+    position:relative;
 }
 
 .footertext{

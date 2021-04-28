@@ -1,9 +1,10 @@
 .main{
     padding: 40px;
-    min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 70%;
+    height: 100%;
     min-height: 100vh;
-    background-color: whitesmoke;
+    background-color: #e8f0fc;
+    position:relative;
 }

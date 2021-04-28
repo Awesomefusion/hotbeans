@@ -12,14 +12,44 @@ class Team extends React.Component {
         return (
                 <div className={styles.main}>
                     <h1 className={styles.middleTitle}>Say hello to our team!</h1>
+
                     <div className={styles.teamContainer}>
-                        <img className={styles.teamPic} src={one}/>
-                        <img className={styles.teamPic} src={two}/>
-                        <img className={styles.teamPic} src={three}/>
-                        <img className={styles.teamPic} src={four}/>
-                        <img className={styles.teamPic} src={five}/>
-                        <img className={styles.teamPic} src={six}/>
+
+                        <div className={styles.memberBox}>
+                            <img className={styles.teamPic} src={one}/>
+                            <p>John Davies - Senior Manager</p>
+                        </div>
+
+                        <div className={styles.memberBox}>
+                            <img className={styles.teamPic} src={two}/>
+                            <p>Tom Owens - Database Manager</p>
+                        </div>
+
+                        <div className={styles.memberBox}>
+                            <img className={styles.teamPic} src={three}/>
+                            <p>Mike Grafford - Lead Designer</p>
+                        </div>
                     </div>
+
+                    <div className={styles.teamContainer}>
+                    <div className={styles.memberBox}>
+                            <img className={styles.teamPic} src={four}/>
+                            <p>Shane Tolstoy - System Admin</p>
+                        </div>
+
+                        <div className={styles.memberBox}>
+                            <img className={styles.teamPic} src={five}/>
+                            <p>Lindsay Carrol - Trainee Web Developer</p>
+                        </div>
+
+                        <div className={styles.memberBox}>
+                            <img className={styles.teamPic} src={six}/>
+                            <p>Stephen Baker - Trainee Web Developer</p>
+                        </div>
+                    </div>
+
+
+
                 </div>
         )
     }
